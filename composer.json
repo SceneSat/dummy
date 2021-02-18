@@ -1,0 +1,19 @@
+{
+	"name": "scenesat/dummy",
+	"description": "Dummy package to avoid Composer dependency confusion - https://blog.packagist.com/preventing-dependency-hijacking/",
+	"type": "library",
+	"license": "MIT",
+	"authors": [{
+		"name": "John 'Ziphoid' Carehag",
+		"email": "ziphoid@scenesat.com"
+	}],
+	"autoload": {
+		"files": [
+			"src/Dummy.php"
+		]
+	},
+	"minimum-stability": "dev",
+	"require": {
+		"php": "^5.0|^7.0|^8.0"
+	}
+}
